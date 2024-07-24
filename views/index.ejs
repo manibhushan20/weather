@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather Application</title>
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <script src="/client.js"></script>
+</head>
+<body>
+  <div class="instruction">
+    <h2>Please enter your  City/Town🏙️ name in search bar to get the information about weather in your city........</h2>
+      </div>
+          <header class="searchbar">
+            <form action="/" method="get">
+              <input class="search" type="text" name="place" placeholder="City/Town....">
+             <!-- <button id="searchButton" class="button" type="button">Click Me!</button>-->
+             <h2>Press Enter</h2>
+            </form>
+          </header>
+    <div class="myContainer">
+            <div class="container1">
+          <h1>  <%= name %>  Weather Forecast </h1> 
+           </div>
+      <div class="container2">
+        <div class="box1"> 
+    <img src=" <%= weatherIcon %>"> 
+        </div>
+        <div class="box2">
+            <h2 id="data"><%= date %>, <%= month %>  <%= year %></h2> 
+             <h1><%= weatherDescription %></h1> 
+        </div>
+    </div>
+    <div class="container3"> 
+        <div class="box3">
+            <span class="font"><%= temp %> °C</span>
+        </div>
+    </div>
+    <div class="container4"> 
+           <h2>Weather today in  <%= name %>  </h2>
+           <h3>Min Temp | Max Temp</h3>
+            <h3><%= minTemp %> °C| <%= maxTemp %> °C</h3>
+    </div>
+
+    <div class="container5">
+        <div class="box">
+          <i class="fas fa-3x fa-temperature-high"></i>
+          <h3>Temp Feels</h3>
+          <h3><%= tempFeels %> °C</h3> 
+        </div>
+        <div class="box">
+          <i class="fas fa-3x fa-tint"></i>
+          <h3>Humidity</h3>
+          <h3><%= humidity %>%</h3> 
+        </div>
+        <div class="box">
+          <i class="fas fa-3x fa-wind"></i>
+          <h3>Wind-Speed</h3>
+          <h3><%= wind %>m/s</h3>
+        </div>
+      </div>
+      
+        <div class="container6">
+            <h1>Weather Report of  <%= name %>  </h1>
+          <div class="grid">
+            <h3>Sunrise</h3>
+            <h3><%= Sunrise %></h3>
+          </div>
+          <div class="grid">
+            <h3>Sunset</h3>
+            <h3><%= Sunset %></h3>
+          </div>
+          <div class="grid">
+            <h3>LongiTude</h3>
+            <h3><%= longitude %>°</h3>
+          </div>
+          <div class="grid">
+            <h3>Latitude</h3>
+            <h3><%= latitude %>°</h3>
+          </div>
+        </div>
+    </div>
+    <footer>
+          <p>© 2024 copyright. All rights reserved manibhushan and co.!!</p>
+    </footer>
+</body>
+</html>

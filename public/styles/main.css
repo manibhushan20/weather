@@ -1,0 +1,116 @@
+body {
+    background: url("/images/sunrise.jpg");
+   }
+.searchbar{
+    margin-top: 5%;
+    border: 10px sold green;
+    text-align: center;
+}
+
+.search{
+    font-size:larger ;
+    border: 3px solid gold;
+    border-radius: 5px;
+}
+
+.button{
+        font-size:larger ;
+        border: 3px solid gold;
+        border-radius: 5px;
+}
+.container1{
+  font-size: larger;
+ text-align: center;
+ color:aqua;
+}
+
+
+
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .box1 img{
+    width:200px;
+   height: auto;
+   align-items: center;
+  }
+
+  .box2 {
+   color: aquamarine;
+  }
+
+  .box2 h1{
+    color:deeppink;
+  }
+  .container3{
+    font-size: 50px;
+    text-align: center;
+    color: azure;
+  }
+
+  .container4{
+    text-align: center;
+    font-size: large;
+    color: blanchedalmond;
+  }
+
+  .container5{
+    color:brown;
+   display: flex;
+  }
+
+  
+  .box {
+    flex: 1;
+    text-align: center;
+
+    padding: 5px;
+    background-color: rgba(240, 248, 255, 0.834);
+    display: flex;
+    align-items: center;
+}
+
+.box i {
+    margin-right: 10px;
+    font-size: 5rem;
+}
+
+.box h3 {
+    font-size: 2rem;
+    margin-left: 10px; 
+}
+
+.container6{
+    color:antiquewhite;
+} 
+
+.container6 h1{
+    text-align: center;
+    color: aquamarine;
+}
+
+.grid{
+    margin-left: 20%;
+   display: flex;
+   gap:50% ;
+    text-align: center;
+}
+
+.instruction{
+    color: beige;
+    padding: 5px;
+    border: 3px solid tan;
+    text-align: center;
+}
+
+footer{
+    color: aquamarine;
+    text-align: center;
+}
+
+
+
+
